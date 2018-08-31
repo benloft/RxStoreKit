@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8EADF10C1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF10A1FE5F1310012E4EC /* SKReceiptRefreshRequest+Rx.swift */; };
 		8EADF10D1FE5F1310012E4EC /* SKReceiptRefreshRequestDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADF10B1FE5F1310012E4EC /* SKReceiptRefreshRequestDelegateProxy.swift */; };
-		A7A1CBC11F8510D300A43DF8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1CBBF1F85103100A43DF8 /* RxCocoa.framework */; };
-		A7A1CBC21F8510D400A43DF8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1CBBE1F85102700A43DF8 /* RxSwift.framework */; };
 		DAE432571EFA10390025C54B /* RxSKPaymentTransactionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE4324E1EFA10390025C54B /* RxSKPaymentTransactionObserver.swift */; };
 		DAE432581EFA10390025C54B /* RxStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE4324F1EFA10390025C54B /* RxStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAE432591EFA10390025C54B /* SKPaymentQueue+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE432501EFA10390025C54B /* SKPaymentQueue+Rx.swift */; };
@@ -52,8 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A1CBC11F8510D300A43DF8 /* RxCocoa.framework in Frameworks */,
-				A7A1CBC21F8510D400A43DF8 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
