@@ -138,7 +138,6 @@
 				DAE432221EFA02FC0025C54B /* Frameworks */,
 				DAE432231EFA02FC0025C54B /* Headers */,
 				DAE432241EFA02FC0025C54B /* Resources */,
-				A7A1CBC01F85104A00A43DF8 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -179,7 +178,7 @@
 				TargetAttributes = {
 					DAE432251EFA02FC0025C54B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = HUVJ3972SJ;
+						DevelopmentTeam = 2AF8SA47V8;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -223,27 +222,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A7A1CBC01F85104A00A43DF8 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAE432211EFA02FC0025C54B /* Sources */ = {
@@ -398,7 +376,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HUVJ3972SJ;
+				DEVELOPMENT_TEAM = 2AF8SA47V8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -423,7 +401,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HUVJ3972SJ;
+				DEVELOPMENT_TEAM = 2AF8SA47V8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
